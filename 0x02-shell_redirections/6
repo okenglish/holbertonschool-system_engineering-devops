@@ -1,2 +1,0 @@
-#!/bin/bash
-Awk ‘{if (NR==3) print $0}’ iacta 
