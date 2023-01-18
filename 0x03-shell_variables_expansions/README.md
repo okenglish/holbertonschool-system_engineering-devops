@@ -1,1 +1,1 @@
-Various scripts for shell, continued 
+various scripts in shell
