@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Purpose: demonstrate "until loop" scripting 
+
+i=1
+until (( i < 11))
+do
+echo "Best School"
+((i++))
+done
