@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# bash script displaying cwd in list form, with only some of name displayed after first dash 
+
+for i in *
+do
+	echo "$i" | cut -f 2 -d '-'
+done
