@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# script in bash to display time of 12:59 
+
+m=1
+h=0
+while [ $h -lt 13 ]; do
+	echo hour: $h 
+while [ $m -le 59 ]; do
+		printf "%s\n" "$m"
+	((m+=1))
+done
+((m = 1))
+((h += 1))
+done
