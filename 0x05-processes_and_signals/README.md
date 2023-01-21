@@ -1,1 +1,1 @@
-# bash scripts for various tasks with processes 
+bash scripts for various tasks with processes 
