@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-echo $$ > /tmp/my.pid
+ps -ef | grep script_name | tr -s ' ' | cut -d ' ' -f2
