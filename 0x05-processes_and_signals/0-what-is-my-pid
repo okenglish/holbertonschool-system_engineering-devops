@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# script in bash shows pid 
 ps -ef | grep script_name | tr -s ' ' | cut -d ' ' -f2
